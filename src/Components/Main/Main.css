@@ -1,0 +1,57 @@
+.Main{
+    height: 60%;
+    width: 100%;
+   background-color: white;
+    padding: 1rem 3rem;
+    display: flex;
+}
+.MainLeft{
+    height: 100%;
+    width: 40%;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+.MainLeft h1{
+    font-size: 2.2rem;
+}
+.MainLeft p {
+   margin: .8rem 0;
+}
+.MainRight{
+    height: 100%;
+    width: 55%;
+  
+    padding: 0 2rem;
+}
+.MainRight img{
+    height: 100%;
+    width: 100%;
+}
+.bottom{
+    width: 100%;
+    height: 33%;
+   
+    display: flex;
+}
+.one{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: orange;
+margin-top: 1.2rem;
+}
+.two{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: red;
+}
+.three{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 238);
+    margin-top: 1.5rem;
+}

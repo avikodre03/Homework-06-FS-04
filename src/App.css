@@ -1,6 +1,22 @@
 .App {
  height: 100vh;
- width: ;
+ width: 100vw;
+ background-image: url("./img/laptop-bg.jpg");
+ background-size: 90% 100%;
+ background-position: center;
+ /* padding: 2rem; */
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
 }
-
+.App .Screen{
+  border: 2px solid black;
+  height: 74%;
+  width: 65%;
+  margin-top: 3rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
 
